@@ -10,3 +10,61 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  storefront
 */
+
+/* -- header --*/
+
+
+
+.site-branding .site-title a{
+
+}
+
+.home.page:not(.page-template-template-homepage) .site-header{
+    margin-bottom: 0;
+}
+
+/* -- logo -- */
+ 
+.site-header .custom-logo-link img{
+    display: flex;
+    justify-items: center;
+    margin-left: 50%;
+    margin-bottom: -100px;
+
+}
+
+/* -- knapper -- */
+
+.wc-block-grid__products .wc-block-grid__product .wp-block-button__link{
+    background-color: #00A5DE;
+}
+
+.wc-block-grid__products .wc-block-grid__product .wp-block-button__link:hover{
+    background-color: #83d8f5;
+}
+
+/* -- search bar -- */
+
+.site-search .widget_product_search form input[type=search] {
+    display: none;
+}
+
+.widget_product_search{
+    display: none;
+}
+
+
+.main-navigation div.menu {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -95px;
+}
+
+
+
+
+@media only screen and (max-width: 375px) {
+    .site-header .custom-logo-link img {
+      margin-left: 0;
+    }
+  }
