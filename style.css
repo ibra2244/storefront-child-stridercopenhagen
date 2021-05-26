@@ -18,6 +18,7 @@ body{
 
 a{
     color:#00A5DE
+    
 }
 
 
@@ -41,6 +42,17 @@ a{
     margin-bottom: -100px;
 
 }
+
+/* -- kategori section -- */
+
+
+element.style, .wc-block-featured-category  {
+    min-height: 300px;
+    width: 100%;
+    background-position: center;
+  
+}
+
 
 /* -- knapper -- */
 
@@ -123,6 +135,42 @@ button.alt:hover, input[type="button"].alt, input[type="reset"].alt, input[type=
     margin-left: -95px;
 }
 
+/* -- breadcrums -- */
+.woocommerce-breadcrumb{
+    display: none;
+}
+
+/*filter knap*/
+
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    padding: 10px;
+}
+
+.woocommerce-result-count {
+    display: none;
+}
+
+.storefront-sorting:last-child {
+    font-size: .875em;
+    margin-bottom: 2.617924em;
+    display: none;
+}
+/* filter knap slut*/
+
+.wc-block-grid__products, ul.products {
+    margin-left: 0;
+    margin-bottom: 50px;
+    clear: both;
+}
+
+
+/* Woocommerce-info*/
+
+.woocommerce-info, .woocommerce-noreviews, p.no-comments {
+    background-color: black;
+}
 
 
 
