@@ -11,8 +11,18 @@
  Text Domain:  storefront
 */
 
-/* -- header --*/
 
+body{
+
+}
+
+a{
+    color:#00A5DE
+    
+}
+
+
+/* -- header --*/
 
 
 .site-branding .site-title a{
@@ -33,7 +43,19 @@
 
 }
 
+/* -- kategori section -- */
+
+
+element.style, .wc-block-featured-category  {
+    min-height: 300px;
+    width: 100%;
+    background-position: center;
+  
+}
+
+
 /* -- knapper -- */
+
 
 .wc-block-grid__products .wc-block-grid__product .wp-block-button__link{
     background-color: #00A5DE;
@@ -42,6 +64,59 @@
 .wc-block-grid__products .wc-block-grid__product .wp-block-button__link:hover{
     background-color: #83d8f5;
 }
+
+
+
+.entry-content .wp-block-button .wp-block-button__link {
+    color: #fff;
+    background-color: #00A5DE
+    ;
+}
+
+.entry-content .wp-block-button .wp-block-button__link:hover {
+    color: #000;
+    background-color:  #83d8f5;
+}
+
+.button, .widget a.button {
+    color: #fff;
+    background-color: #00A5DE;
+
+}
+.button:hover, .widget a.button {
+    color: #000;
+    background-color: #83d8f5;
+
+}
+
+.site-header-cart .widget_shopping_cart a.button{
+    color: #00A5DE;
+    background-color: #fff;
+}
+
+.site-header-cart .widget_shopping_cart a.button:hover{
+    color: #83d8f5;
+    background-color: #fff;
+}
+
+
+.added_to_cart.alt, .added_to_cart, .widget a.button.checkout {
+    background-color: #83d8f5;
+    border-color: #00A5DE;
+    color: #ffffff;
+}
+
+button.alt, input[type="button"].alt, input[type="reset"].alt, input[type="submit"].alt, .button.alt, .widget-area .widget a.button.alt {
+    background-color: #00A5DE;
+    color: #fff;
+}
+
+button.alt:hover, input[type="button"].alt, input[type="reset"].alt, input[type="submit"].alt, .button.alt:hover, .widget-area .widget a.button.alt{
+    color: #000;
+    background-color: #83d8f5;
+}
+
+/*Knapper slut*/
 
 /* -- search bar -- */
 
@@ -60,8 +135,57 @@
     margin-left: -95px;
 }
 
+/* -- breadcrums -- */
+.woocommerce-breadcrumb{
+    display: none;
+}
+
+/*filter knap*/
+
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    padding: 10px;
+}
+
+.woocommerce-result-count {
+    display: none;
+}
+
+.storefront-sorting:last-child {
+    font-size: .875em;
+    margin-bottom: 2.617924em;
+    display: none;
+}
+/* filter knap slut*/
+
+.wc-block-grid__products, ul.products {
+    margin-left: 0;
+    margin-bottom: 50px;
+    clear: both;
+}
 
 
+/* Woocommerce-info*/
+
+.woocommerce-info, .woocommerce-noreviews, p.no-comments {
+    background-color: black;
+}
+
+
+/* -- footer -- */
+
+.widget {
+    margin: 0;
+}
+
+.footer-widgets {
+    padding-top: 1em;
+}
+
+.site-info {
+    padding: 1em;
+}
 
 @media only screen and (max-width: 375px) {
     .site-header .custom-logo-link img {
