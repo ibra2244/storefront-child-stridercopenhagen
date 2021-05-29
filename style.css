@@ -173,6 +173,19 @@ button, input, select, textarea {
 }
 
 
+/* -- footer -- */
+
+.widget {
+    margin: 0;
+}
+
+.footer-widgets {
+    padding-top: 1em;
+}
+
+.site-info {
+    padding: 1em;
+}
 
 @media only screen and (max-width: 375px) {
     .site-header .custom-logo-link img {
