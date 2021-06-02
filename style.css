@@ -247,6 +247,7 @@ button, input, select, textarea {
     border-radius: 3px;
     position: relative;
     background-color: red;
+}
 
 @media only screen and (max-width: 375px) {
     .site-header .custom-logo-link img {
