@@ -219,6 +219,35 @@ button, input, select, textarea {
 
 }
 
+/* -- sociale ikoner -- */
+
+.wp-block-social-links {
+    font-size: 29px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.hentry {
+    margin: 0;
+}
+
+/* -- on sale ikon -- */
+
+.wc-block-grid__product-onsale, .onsale {
+    border: none;
+    border-color: red;
+    color: #fff;
+    padding: .202em .6180469716em;
+    font-size: .875em;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 1em;
+    border-radius: 3px;
+    position: relative;
+    background-color: red;
+
 @media only screen and (max-width: 375px) {
     .site-header .custom-logo-link img {
       margin-left: 0;
