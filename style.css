@@ -252,7 +252,7 @@ button, input, select, textarea {
 
 /* -- tekst til sociale ikoner -- */
 
-h2.{
+h2 {
     font-family: 'Poppins', sans-serif;
         font-weight: 300;
         display: flex;
