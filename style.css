@@ -11,15 +11,18 @@
  Text Domain:  storefront
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 body{
 
+
 }
 
-a{
-    color:#00A5DE
-    
+h1, h2, h3, h4, h5, h6{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
 }
+
 
 
 /* -- header --*/
@@ -173,6 +176,30 @@ button, input, select, textarea {
 }
 
 
+.storefront-full-width-content .woocommerce-products-header h1:last-child {
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+/* -- Kollektion -- */
+.wc-block-featured-category {
+    margin: 0;
+}
+
+.hentry.type-page .entry-header {
+    display: none;
+}
+
+.storefront-breadcrumb {
+     padding: 0;
+     margin: 0;
+}
+
+.storefront-breadcrumb {
+     margin: 0; 
+     padding: 0; 
+}
+
 /* -- footer -- */
 
 .widget {
@@ -185,6 +212,11 @@ button, input, select, textarea {
 
 .site-info {
     padding: 1em;
+}
+
+
+.site-header-cart .cart-contents::after{
+
 }
 
 @media only screen and (max-width: 375px) {
