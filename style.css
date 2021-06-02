@@ -249,6 +249,7 @@ button, input, select, textarea {
     background-color: red;
 }
 
+
 /* -- tekst til sociale ikoner -- */
 
 h2.{
@@ -258,7 +259,8 @@ h2.{
         justify-content: center;
         text-transform: uppercase;
         margin-bottom: 40px;
-    }
+}
+
 
 @media only screen and (max-width: 375px) {
     .site-header .custom-logo-link img {
