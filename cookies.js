@@ -11,22 +11,22 @@ const cookieStorage = {
     }
 }
 
-const storageType = cookieStorage;
-const consentPropertyName = 'strider_consent';
-const shouldShowPopup = () => !storageType.getItem(consentPropertyName);
-const saveToStorage = () => storageType.setItem(consentPropertyName, true);
+const consentItem = 'strider_consent';
+const showPopup = () => !cookieStorage.getItem(consentItem);
+const saveToStorage = () => cookieStorage.setItem(consentItem, true);
 
 window.onload = () => {
 
-    const acceptFn = event => {
-        saveToStorage(storageType);
-        consentPopup.classList.add('hidden');
-    }
     const consentPopup = document.getElementById('consent-popup');
     const acceptBtn = document.getElementById('accept');
+    
+    const acceptFn = event => {
+        saveToStorage(cookieStorage);
+        consentPopup.classList.add('hidden');
+    }
     acceptBtn.addEventListener('click', acceptFn);
 
-    if (shouldShowPopup(storageType)) {
+    if (showPopup(cookieStorage)) {
         setTimeout(() => {
             consentPopup.classList.remove('hidden');
         }, 2000);
