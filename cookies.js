@@ -33,3 +33,5 @@ window.onload = () => {
     }
 
 };
+
+// inspiration fra youtube tutorial men lavet om til vores egen
